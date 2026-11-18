@@ -1,0 +1,41 @@
+.app {
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: inherit;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+
+.app.light {
+  background: white;
+  color: black;
+}
+
+.app.dark {
+  background: #222;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 6fr,));
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align:left;
+
+
+}
+.card {
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-inline-start: ;
+}
