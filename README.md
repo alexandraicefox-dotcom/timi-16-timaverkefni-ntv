@@ -1,2 +1,2 @@
-# timi-16-timaverkefni-ntv
-Tími 16 Tímaverkefni 
+# timi-17-timaverkefni-ntv
+Tími 17 Tímaverkefni 
